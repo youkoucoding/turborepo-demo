@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudscape-design/components": "^3.0.109",
+    "@cloudscape-design/global-styles": "^1.0.1",
+    "@tanstack/react-query": "^4.14.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "ui": "workspace:*"
   },
   "devDependencies": {
@@ -18,9 +22,9 @@
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
     "eslint": "^8.27.0",
-    "typescript": "^4.6.4",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
+    "typescript": "^4.6.4",
     "vite": "^3.2.3"
   }
 }
