@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      eslint-config-custom: workspace:*
+      eslint-config-custom: workspace:0.0.0
       prettier: latest
       turbo: latest
     devDependencies:
