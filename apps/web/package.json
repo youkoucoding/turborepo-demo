@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@azure/msal-browser": "^2.31.0",
+    "@azure/msal-react": "^1.4.10",
     "@cloudscape-design/components": "^3.0.109",
     "@cloudscape-design/global-styles": "^1.0.1",
     "@tanstack/react-query": "^4.14.5",

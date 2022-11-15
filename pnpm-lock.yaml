@@ -32,6 +32,8 @@ importers:
 
   apps/web:
     specifiers:
+      '@azure/msal-browser': ^2.31.0
+      '@azure/msal-react': ^1.4.10
       '@cloudscape-design/components': ^3.0.109
       '@cloudscape-design/global-styles': ^1.0.1
       '@tanstack/react-query': ^4.14.5
@@ -49,6 +51,8 @@ importers:
       ui: workspace:*
       vite: ^3.2.3
     dependencies:
+      '@azure/msal-browser': 2.31.0
+      '@azure/msal-react': 1.4.10_y7ymf4zryq2kwr7sdjwxqb257u
       '@cloudscape-design/components': 3.0.109_2zx2umvpluuhvlq44va5bta2da
       '@cloudscape-design/global-styles': 1.0.1
       '@tanstack/react-query': 4.14.5_biqbaboplfbrettd7655fr4n2y
@@ -220,8 +224,20 @@ packages:
       '@azure/msal-common': 7.6.0
     dev: false
 
+  /@azure/msal-browser/2.31.0:
+    resolution: {integrity: sha512-PaGA7VjjUH9LCL7tbHO3lDW5rH7VQdbe3A6roYEJ7ieWP/0HNwzqKQCNrI/4rCyXO501ABhE9clSx8/mHbmVYw==}
+    engines: {node: '>=0.8.0'}
+    dependencies:
+      '@azure/msal-common': 8.0.0
+    dev: false
+
   /@azure/msal-common/7.6.0:
     resolution: {integrity: sha512-XqfbglUTVLdkHQ8F9UQJtKseRr3sSnr9ysboxtoswvaMVaEfvyLtMoHv9XdKUfOc0qKGzNgRFd9yRjIWVepl6Q==}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
+  /@azure/msal-common/8.0.0:
+    resolution: {integrity: sha512-KLGVmWoDcpWl/SKb4TZUjWm+l3lim4tUwAAvCM8N8rSHu8r0NtMTySMWBv7d3G8as1SvC4nr3eTae1+9hTp4wg==}
     engines: {node: '>=0.8.0'}
     dev: false
 
@@ -232,6 +248,17 @@ packages:
       '@azure/msal-common': 7.6.0
       jsonwebtoken: 8.5.1
       uuid: 8.3.2
+    dev: false
+
+  /@azure/msal-react/1.4.10_y7ymf4zryq2kwr7sdjwxqb257u:
+    resolution: {integrity: sha512-NQJrUlUqWrsWuml4hgd+EwHarpZoAuSJi5A9Qe91MFafG6KqRYpVXY4nURL3MRWFyWXhE1yJSwnxyBxSEd+qvA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      '@azure/msal-browser': ^2.31.0
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      '@azure/msal-browser': 2.31.0
+      react: 18.2.0
     dev: false
 
   /@babel/code-frame/7.12.11:

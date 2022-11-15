@@ -1,9 +1,9 @@
 import { createContext, ReactNode } from 'react';
 import Axios, { AxiosInstance, AxiosTransformer } from 'axios';
-import { notification } from 'antd';
+import flashbar from '@cloudscape-design/components/flashbar';
 import { useContext } from 'react';
 import { createBrowserHistory } from 'history';
-import { useQuery, useMutation, useQueryClient } from 'react-query';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import qs from 'qs';
 import { result } from 'cypress/types/lodash';
 
