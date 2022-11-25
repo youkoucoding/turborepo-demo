@@ -2,6 +2,7 @@ import { atom } from 'jotai';
 
 export const userInfoAtom = atom<any>({
   key: 'userInfo',
+  role: 'admin',
   default: {},
 });
 
