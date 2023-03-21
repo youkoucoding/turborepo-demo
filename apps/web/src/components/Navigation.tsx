@@ -32,12 +32,12 @@ const defaultOnFollowHandler: SideNavigationProps["onFollow"] = (event) => {
   event.preventDefault();
 };
 
-interface NavigationProps {
+type NavigationProps = {
   activeHref?: string;
   header?: SideNavigationProps["header"];
   items?: SideNavigationProps["items"];
   onFollowHandler?: SideNavigationProps["onFollow"];
-}
+};
 
 export default function Navigation({
   activeHref,
