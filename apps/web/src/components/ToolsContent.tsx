@@ -15,13 +15,17 @@ const toolsFooter = (
   />
 );
 
-export const ToolsContent = () => (
-  <HelpPanel footer={toolsFooter} header={<h2>Distributions</h2>}>
-    <p>
-      View your current distributions and related information such as the
-      associated domain names, delivery methods, SSL certificates, and more. To
-      drill down even further into the details, choose the name of an individual
-      distribution.
-    </p>
-  </HelpPanel>
-);
+function ToolsContent() {
+  return (
+    <HelpPanel footer={toolsFooter} header={<h2>Distributions</h2>}>
+      <p>
+        View your current distributions and related information such as the
+        associated domain names, delivery methods, SSL certificates, and more.
+        To drill down even further into the details, choose the name of an
+        individual distribution.
+      </p>
+    </HelpPanel>
+  );
+}
+
+export default ToolsContent;
